@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>奥斯德汽车服务平台</title>
+		<link rel="stylesheet" type="text/css" href="css/easyui.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" href="css/CSS.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.easyui.min.js" ></script>
+		
+		<style>
+			.div_info{margin: 0 auto;width: 805px;height:600px; background: #fff;border: 1px #CCCCCC solid;}
+			.div_info_title{background: #ccc;text-align: center;line-height:45px;}
+			.div_info_infocard{background: #fff;width:100%;margin: 0 auto;}
+			.infocard-div{width:390px;}
+			.infocard-div-title{width: 150px;text-align: right;line-height: 30px;font-size: 14px;}
+			.infocard-div-title li,.infocard-div-content li{border-bottom: 1px solid #F8F8F8;padding:6px 0;}
+			.infocard-div-content{width: 240px;line-height: 30px;font-size: 14px;}
+			.content-hr{width: 1px;}
+			.content-hr li{width:1px;background: #F8F8F8;height: 35px;margin-bottom:7px;}
+			.content-title{width: 150px;text-align: right;font-size: 14px;line-height: 30px;}
+			.content-content{min-height:65px;width: 620px;font-size: 14px;line-height: 30px;}
+			.content-hr li{height: 38px;}
+			#tip {position:absolute;color:#333;display:none;}
+			#tip s {position:absolute;top:40px;left:-20px;display:block;width:0px;height:0px;font-size:0px;line-height:0px;border-color:transparent #BBA transparent transparent;border-style:dashed solid dashed dashed;border-width:10px;}
+			#tip s i {position:absolute;top:-10px;left:-8px;display:block;width:0px;height:0px;font-size:0px;line-height:0px;border-color:transparent #fff transparent transparent;border-style:dashed solid dashed dashed;border-width:10px;}
+			#tip .t_box {position:relative;background-color:#CCC;filter:alpha(opacity=50);-moz-opacity:0.5;bottom:-3px;right:-3px;}
+			#tip .t_box div {position:relative;background-color:#FFF;border:1px solid #ACA899;background:#FFF;padding:1px;top:-3px;left:-3px;}
+			.tip {width:82px;height:82px;border:1px solid #DDD;}
+		</style>
+	</head>
+
+	<body>
+		
+		<div class="div_info clean_float" style="height: 600px;overflow: auto;">
+			<div class="div_info_title">服 务 过 程</div>
+			<div class="clean_float div_info_infocard">
+				<div class="clean_float div_info_infocard">
+					<div id="" class="fl clean_float infocard-div">
+						<ul class="fl infocard-div-title">
+							<li>姓名	：</li>
+							<li>电话	：</li>
+							<li>服务网点：</li>
+						</ul>
+						<ul class="fl infocard-div-content">
+							<li>张三</li>
+							<li>12345678901	</li>
+							<li>济南市高新区售后服务店</li>
+						</ul>
+					</div>
+					<ul class="content-hr clean_float fl">
+							<li></li>
+							<li></li>
+							<li></li>
+					</ul>
+					<div id="" class="fl infocard-div clean_float">
+						<ul class="fl infocard-div-title">
+							<li>优惠券：</li>
+							<li>核销时间：</li>
+							<li>发放时间：</li>
+						</ul>
+						<ul class="fl infocard-div-content">
+							<li>
+								洗车劵1张
+							</li>
+							<li>2017-12-14 12:20:10</li>
+							<li>2017-06-14 12:20:10</li>
+						</ul>
+					</div>
+				</div>
+				<div class="clean_float">
+						<div style="margin: 10px 0; font-size: 16px;font-weight: bold; background: #f4f4f4;padding: 10px 0 10px 80px;">服务过程</div>
+						<div class="clean_float">
+							<div class="fl content-title" style="color: #999;"> 首次追加：<br>12.1212:10:10</div>
+							<div class="fr content-content" >
+								①、一号人员专门冲洗车辆，并负责引导车辆入位。     
+								②、二号人员专门负责用吸尘器洗尘清理，并吸尘或清洗脚垫。     
+								③、三号人员专门清洁室内仪表台、排挡区，以及前挡玻璃和车门窗内侧。   
+								④、四、五号人员专门分左右两边均匀擦洗车身，并吹水。      
+								⑤、五号人员负责彻底检查，并通知收款交车。
+								<p><img class="tip" src="img/bg_ht.jpg" /></p>
+							</div>
+						</div>
+						<div class="clean_float">
+							<div class="fl content-title" style="color: #999;">服务追加：<br>12.1212:10:10</div>
+							<div class="fr content-content" >
+								①、一号人员专门冲洗车辆，并负责引导车辆入位。     
+								②、二号人员专门负责用吸尘器洗尘清理，并吸尘或清洗脚垫。     
+								③、三号人员专门清洁室内仪表台、排挡区，以及前挡玻璃和车门窗内侧。   
+								④、四、五号人员专门分左右两边均匀擦洗车身，并吹水。      
+								⑤、五号人员负责彻底检查，并通知收款交车。
+								<p><img class="tip" src="img/bg_ht.jpg" /></p>
+							</div>
+						</div>	
+						
+				</div>
+				<div class="clean_float">
+					<div style="margin: 10px 0; font-size: 16px;font-weight: bold; background: #f4f4f4;padding: 10px 0 10px 80px;">评价明细</div>
+						<div class="clean_float div_info_infocard">
+					<div id="" class="fl clean_float infocard-div">
+						<ul class="fl infocard-div-title">
+							<li>服务态度：</li>
+							<li>等待时间：</li>
+						</ul>
+						<ul class="fl infocard-div-content">
+							<li class="star">
+								<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+							</li>
+							<li class="star">
+								<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+							</li>
+						</ul>
+					</div>
+					<ul class="content-hr clean_float fl">
+							<li></li>
+					</ul>
+					<div id="" class="fl infocard-div clean_float">
+						<ul class="fl infocard-div-title">
+							<li>服务质量：</li>
+						</ul>
+						<ul class="fl infocard-div-content">
+							<li  class="star">
+								<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;color: orange;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+					         	<i class="iconfont icon-xingji" style="font-size: 12px;"></i>
+							</li>
+						</ul>
+					</div>
+					<br />
+				</div>
+					
+					
+					
+					
+					<div class="clean_float">
+						<div class="fl content-title" style="color: #999;">首次评价：<br>12.1212:10:10</div>
+						<div class="fr content-content" >
+							①、一号人员专门冲洗车辆，并负责引导车辆入位。     
+							⑤、五号人员负责彻底检查，并通知收款交车。
+						</div>
+					</div>	
+				</div>
+				<a  class="button_div fr">关闭</a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+			  $('.tip').mouseover(function(){
+			   var $tip=$('<div id="tip"><div class="t_box"><div><s><i></i></s><img src="'+this.src+'" width="200"/></div></div></div>');
+			   $('body').append($tip);
+			   $('#tip').show('fast');
+			  }).mouseout(function(){
+			   $('#tip').remove();
+			  }).mousemove(function(e){
+			   $('#tip').css({"top":(e.pageY-60)+"px","left":(e.pageX+30)+"px"})
+			  })
+			})
+		</script>
+	</body>
+</html>	

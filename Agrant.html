@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>奥斯德汽车服务平台</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/CSS.css" />
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="clean_float top_div">
+			<img src="img/asd_logo.jpg" class="login_img" />
+			<ul class="fl molde_div">
+				<a>
+					<li class="fl" style="background:#3caeff;color: #fff;">服务卡发放</li>
+				</a>
+				<a href="index2.html">
+					<li class="fl">服务跟踪</li>
+				</a>
+				<a>
+					<li class="fl">服务核查</li>
+				</a>
+			</ul>
+			<ul class="fr icon_div">
+				<a href="">
+					<li class="fl">
+						<i class="iconfont icon-yonghu"></i>
+						<span class="admin">欢迎您，admin</span>
+					</li>
+				</a>
+				<a>
+					<li class="fl"><i class="iconfont icon-xiugaimima"></i></li>
+				</a>
+				<a>
+					<li class="fl"><i class="iconfont icon-xiaoxi"></i></li>
+				</a>
+				<a>
+					<li class="fl"><i class="iconfont icon-shengyin"></i></li>
+				</a>
+				<a>
+					<li class="fl"><i class="iconfont icon-tuichu"></i></li>
+				</a>
+			</ul>
+		</div>
+
+		<div class="content_div ">
+			<div class="fl fill_info">
+				<div class="title">服务卡发放</div>
+				<table>
+					<tr>
+						<td class="textr">车主手机：</td>
+						<td><input type="text" placeholder="请输入车主手机"></td>
+					</tr>
+					<tr>
+						<td class="textr">车牌号码：</td>
+						<td style="padding-bottom: 0;"><input type="text" placeholder="请输入车牌号码"></td>
+					</tr>
+					<tr>
+						<td class="textr"></td>
+						<td class="td span_o">未上牌请填写发动机号</td>
+					</tr>
+					<tr>
+						<td rowspan="3" class="textr">服务卡类型：</td>
+						<td>
+							<input type="radio" id="modle1" value="" name="sertype" class="radio" checked="checked" /><label for="modle1" class="radio_lable">基本服务卡</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" id="modle1" value="" name="sertype" class="radio" /><label for="modle1" class="radio_lable">豪华服务卡</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="radio" id="modle1" value="" name="sertype" class="radio" /><label for="modle1" class="radio_lable">尊享服务卡</label>
+
+						</td>
+					</tr>
+					<tr class="nav_status">
+						<td class="textr">姓名：</td>
+						<td><input type="text" placeholder="请输入姓名"></td>
+					</tr>
+					<tr class="nav_status">
+						<td class="textr">保单号：</td>
+						<td><input type="text" placeholder="请输入保单号"></td>
+					</tr>
+					<tr class="nav_status">
+						<td class="textr">保单到期日：</td>
+						<td><input type="text" placeholder="请输入保单到期日"></td>
+					</tr>
+					<tr class="nav_status">
+						<td class="textr">品牌类型：</td>
+						<td><input type="text" placeholder="请输入品牌类型"></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="textr button_status">
+							<u> 更多信息》</u>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="td_button">
+							<input type="button" value="重置" class="td_button2">
+							<input type="button" value="添加" class="td_button1">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="fr list_info">
+				<ul class="clean_float">
+					<li class="fl"><i class="iconfont icon-shouye-copy"></i>&nbsp;&nbsp;</li>
+					<li class="fl"><i class="iconfont icon-xiayige" style="font-size: 13px;"></i>&nbsp;&nbsp;&nbsp;</li>
+					<li class="fl"> 服务卡发放清单</li>
+				</ul>
+				<div class="title">
+					服务卡发放清单
+				</div>
+				<div class="table_div">
+					<div class="sitg_div">
+						<div class="clean_float select_div">
+							<ul class="time_slot_ul">
+								<li class="fl">时间段选择：</li>
+								<li class="fl time_slot time_slot_on">今日</li>
+								<li class="fl time_slot">本周</li>
+								<li class="fl time_slot">本月</li>
+								<li class="fl "><input type="text" id="" value="" class="input" style="margin-right: 0;"/>
+								<li class="fl "><i class="iconfont icon-calendar" style="font-size: 26px;"></i></li>
+								<li class="fl "><input type="button" value="查 询" class="buttom n_color" /></li>
+							</ul>
+							
+						</div>
+						<table>
+							<tr>
+								<td style="width:5%;">id</td>
+								<td style="width:20%;">车主手机</td>
+								<td style="width:20%;">车牌号码</td>
+								<td style="width:15%;">服务卡类型</td>
+								<td style="width:20%;">发放时间 </td>
+								<td style="width:20%;">操作</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>12345678901</td>
+								<td>鲁Q123456</td>
+								<td>两大以服务</td>
+								<td>2017-09-10 12:10:12 </td>
+								<td>
+									<input type="button" value="查看" class="button y_color">
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>12345678901</td>
+								<td>鲁Q123456</td>
+								<td>两大以服务</td>
+								<td>2017-09-10 12:10:12 </td>
+								<td>
+									<input type="button" value="查看" class="button y_color" onclick="showBg()">
+								</td>
+							</tr>
+
+						</table>
+					</div>
+					
+				</div>
+				<div class="page_div clean_float">
+					<ul class="fl pageull">
+						<li>当前第1-10条，共计100条</li>
+					</ul>
+					<ul class="fr pageul">
+						<li class="fl">首页</li>
+						<li class="fl">前一页</li>
+						<li class="fl">1</li>
+						<li class="fl">2</li>
+						<li class="fl">...</li>
+						<li class="fl">...</li>
+						<li class="fl">...</li>
+						<li class="fl">10</li>
+						<li class="fl">后一页</li>
+						<li class="fl">尾页</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="fullbg"></div>
+		<div id="Mask" class=" Mask">
+			<p class="info_title">服&nbsp;务&nbsp;卡&nbsp;详&nbsp;情</p>
+
+			<div class="div_contnet clean_float">
+				<div class="clean_float"><span class="title fl"> 车主手机：</span><span class="content fl">15722222121</span></div>
+				<div class="clean_float"><span class="title fl"> 车牌号/发动机号：</span><span class="content fl">鲁Q123445</span></div>
+			</div>
+			<div class="div_contnet clean_float">
+				<div class="clean_float"><span class="title fl"> 操作类型：</span><span class="content fl">发卡</span></div>
+				<div class="clean_float"><span class="title fl"> 服务卡类型：</span><span class="content fl"></span></div>
+			</div>
+			<div class="div_contnet clean_float">
+				<div class="clean_float"><span class="title fl"> 操作人：</span><span class="content fl">张三三</span></div>
+				<div class="clean_float"><span class="title fl"> 操作时间：</span><span class="content fl">2017-10-10 12:12:12</span></div>
+			</div>
+			<div class="div_contnet clean_float">
+				<div class="clean_float" style="width: 90%;margin: 0 auto;"><span class="title fl"> 操作描述：</span><span class="fl" style="width: 78%;padding-top: 7px;">今天给张三三赠送了一个2玻璃代金券+1保养优惠券服务卡</span></div>
+			</div>
+			<a href="#" onclick="closeBg();" class="close">关闭</a>
+		</div>
+		<script>
+			$(function() {
+				var height = document.documentElement.clientHeight;
+				var width = document.documentElement.clientWidth;
+				$('.content_div').css('height', height - 80 + 'px');
+				$('.list_info').css('width', width - 390 + 'px');
+				//$('.table_div').css('height', height -205+ 'px');
+				$('.sitg_div').css('min-height', height - 265 + 'px');
+			})
+			$(".button_status").click(function() {
+				if($(".nav_status").css("display") == "none") {
+					$(".nav_status").show();
+					$(".button_status u").text(' 隐藏 △');
+				} else {
+					$(".nav_status").hide();
+					$(".button_status u").text(' 更多 ▽');
+				}
+			});
+		</script>
+
+		<!--查看-->
+		<script>
+			function showBg() {
+				var bh = $("body").height();
+				var bw = $("body").width();
+				$("#fullbg").css({
+					height: bh,
+					width: bw,
+					display: "block"
+				});
+				$(".Mask").show();
+			}
+			function closeBg() {
+				$("#fullbg,#Mask").hide();
+			}
+		</script>
+	</body>
+
+</html>
